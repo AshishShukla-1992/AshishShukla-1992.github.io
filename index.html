@@ -1,248 +1,206 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Home</title>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ashish Kumar Shukla - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="hero">
+        <img src="assets/profile.png" alt="Ashish Kumar Shukla">
+        <h1>Ashish Kumar Shukla</h1>
+        <p>Lead Software Engineer | AI/ML | Full Stack | Embedded Systems</p>
+        <div class="links">
+            <a href="mailto:me.ashishshukla12@gmail.com">Email</a>
+            <a href="https://linkedin.com/in/ashish-shukla-8a379242" target="_blank">LinkedIn</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m <strong>Ashish Kumar Shukla</strong>, a passionate and versatile <strong>Lead Software
+                Engineer</strong> with over <strong>11 years of international experience</strong> across <strong>AI/ML,
+                Full Stack Development, Backend Engineering</strong>, and <strong>Embedded Systems</strong>.</p>
+
+        <p>I hold a <strong>Master's degree in Computer Science</strong> (AI Major) from <em>Paderborn University,
+                Germany</em>. My career spans product innovation, research-driven development, and hands-on software
+            engineering across startups and global automotive firms like <strong>Stellantis</strong>.</p>
+
+        <p>My work ranges from building <strong>real-time AI solutions</strong> for proactive vehicle safety, to
+            deploying <strong>50+ scalable microservices</strong>, and crafting intelligent mobile apps that delight
+            users. I thrive in solving complex problems that sit at the intersection of software engineering and machine
+            learning.</p>
+
+        <p>Outside work, I enjoy exploring new technologies, mentoring junior developers, and building meaningful side
+            projects with practical impact.</p>
+    </section>
 
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0;">
+    <section id="experience">
+        <h2>Professional Experience</h2>
 
-		
-		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
-<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />
-<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/social-icons.css?buildtime=1234" media="screen,projection" />
-<link rel="stylesheet" type="text/css" href="files/main_style.css?1499331503" title="wsite-theme-css" />
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,200,200italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+        <div class="job">
+            <h3>Lead Engineer – Stellantis (Mar 2023 – Present)</h3>
+            <ul>
+                <li>Investigated new technologies and built AI-based POCs.</li>
+                <li>Developed safety algorithms for Dark zone, Slippery Roads using clustering techniques.</li>
+                <li>Built feature onboarding algorithms for Hi-beam Assist, Adaptive Cruise Control, and Lane Keep
+                    Assist.</li>
+                <li>Deployed AI models on Car SoC, created ETL pipelines using Databricks, and built dashboards for
+                    model metrics.</li>
+                <li><strong>Tech Stack:</strong> Python, Spark, Databricks, SQL, C/C++, Kepler SDK, QNX, QNN SDK, React
+                    Native</li>
+            </ul>
+        </div>
 
-<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-<style type='text/css'>
-.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-family:"PT Sans" !important;font-weight:700 !important;font-style:normal !important;}
-#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {color:#3f3f3f !important;}
-.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
-.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Montserrat" !important;font-weight:700 !important;}
-#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
-.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
-#wsite-title {}
-.wsite-menu-default a {}
-.wsite-menu a {}
-.wsite-image div, .wsite-caption {}
-.galleryCaptionInnerText {}
-.fancybox-title {}
-.wslide-caption-text {}
-.wsite-phone {}
-.wsite-headline,.wsite-header-section .wsite-content-title {}
-.wsite-headline-paragraph,.wsite-header-section .paragraph {}
-.wsite-button-inner {}
-.wsite-not-footer blockquote {}
-.wsite-footer blockquote {}
-.blog-header h2 a {}
-#wsite-content h2.wsite-product-title {}
-.wsite-product .wsite-product-price a {}
-@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-size:15px !important;line-height:30px !important;}
-#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
-.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
-.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-size:29px !important;}
-#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
-.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
-#wsite-title {}
-.wsite-menu-default a {}
-.wsite-menu a {}
-.wsite-image div, .wsite-caption {}
-.galleryCaptionInnerText {}
-.fancybox-title {}
-.wslide-caption-text {}
-.wsite-phone {}
-.wsite-headline,.wsite-header-section .wsite-content-title {}
-.wsite-headline-paragraph,.wsite-header-section .paragraph {}
-.wsite-button-inner {}
-.wsite-not-footer blockquote {}
-.wsite-footer blockquote {}
-.blog-header h2 a {}
-#wsite-content h2.wsite-product-title {}
-.wsite-product .wsite-product-price a {}
-}</style>
-<style>
-.wsite-background {background-image: url("/uploads/1/0/8/6/108658285/background-images/1625122775.jpg") !important;background-repeat: no-repeat !important;background-position: 50% 50% !important;background-size: 100% !important;background-color: transparent !important;background: inherit;}
-body.wsite-background {background-attachment: fixed !important;}.wsite-background.wsite-custom-background{ background-size: cover !important}
-</style>
-		<script>
-var STATIC_BASE = '//cdn1.editmysite.com/';
-var ASSETS_BASE = '//cdn2.editmysite.com/';
-var STYLE_PREFIX = 'wsite';
-</script>
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+        <div class="job">
+            <h3>R&D Engineering Lead – Kruzr (Sep 2020 – Mar 2023)</h3>
+            <ul>
+                <li>Led a team of 8 engineers managing 50+ microservices.</li>
+                <li>Oversaw cloud migration from Google Cloud to AWS.</li>
+                <li>Worked on backend infra, client deliverables, and built R&D prototypes.</li>
+                <li><strong>Tech Stack:</strong> Java, Spring Boot, Kafka, RabbitMQ, AWS, Kubernetes, Python, NodeJS,
+                    Grafana, Elastic Search</li>
+            </ul>
+        </div>
 
-<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script>
-<script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
-<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script><script> _W.themePlugins = {"navpane":{"condense":1024,"forced":1}};</script><script src='http://cdn2.editmysite.com/js/site/theme-plugins.js?buildTime=1234'></script><script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script><script type="text/javascript"><!--
-	var IS_ARCHIVE = 1;
-	
-	function initFlyouts(){
-		initPublishedFlyoutMenus(
-			[{"id":"171050066209656739","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"901156394380018484","title":"About","url":"about.html","target":"","nav_menu":false,"nonclickable":false},{"id":"964137637646659888","title":"Journal","url":"journal.html","target":"","nav_menu":false,"nonclickable":false},{"id":"301833833553888214","title":"Get in Touch","url":"get-in-touch.html","target":"","nav_menu":false,"nonclickable":false}],
-			"171050066209656739",
-			'',
-			'active',
-			false,
-			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
-			{"hasCustomMinicart":true}
-		)
-	}
-//-->
-</script>
-		
-		
-	</head>
-	<body class="no-header-page  wsite-page-index wsite-theme-light"><div id="wrapper">
+        <div class="job">
+            <h3>Software Consultant – HEGLA GmbH, Germany (Jan 2020 – Sep 2020)</h3>
+            <ul>
+                <li>Developed hybrid mobile apps and Azure-based microservices.</li>
+                <li>Reviewed technical design and collaborated on workflows for software development.</li>
+                <li><strong>Tech Stack:</strong> C#, Azure, Flutter, PowerApps, Unity</li>
+            </ul>
+        </div>
 
-		<div id="panel-one">
-			<div class="wsite-background wsite-custom-background">
-				<div class="shade"></div>
-				<div class="w-navlist nav">
-					<div class="menu-wrapper"><ul class="wsite-menu-default">
-		<li id="active" class="wsite-menu-item-wrap">
-			<a
-						href="index.html"
-				class="wsite-menu-item"
-				>
-				Home
-			</a>
-			
-		</li>
-		<li id="pg901156394380018484" class="wsite-menu-item-wrap">
-			<a
-						href="about.html"
-				class="wsite-menu-item"
-				>
-				About
-			</a>
-			
-		</li>
-		<li id="pg964137637646659888" class="wsite-menu-item-wrap">
-			<a
-						href="journal.html"
-				class="wsite-menu-item"
-				>
-				Journal
-			</a>
-			
-		</li>
-		<li id="pg301833833553888214" class="wsite-menu-item-wrap">
-			<a
-						href="get-in-touch.html"
-				class="wsite-menu-item"
-				>
-				Get in Touch
-			</a>
-			
-		</li>
-</ul>
-</div>
-				</div>
-			</div>
-			<div class="w-navpane-trigger hamburger"><span></span></div>
-			<div id="logo"><span class="wsite-logo">
+        <div class="job">
+            <h3>Technical Lead – Kruzr (Apr 2016 – Apr 2018)</h3>
+            <ul>
+                <li>Designed and developed the Kruzr driving assistant smartphone app from scratch.</li>
+                <li>Managed automatic call/text handling and chatbot-based communication system.</li>
+                <li><strong>Tech Stack:</strong> Java, Android SDK/NDK, Objective C, Swift</li>
+            </ul>
+        </div>
 
-	
-	<span class="wsite-title-placeholder">&nbsp;</span><span style="display:none">
-	<span style="display:none">Jay Sims</span>
-	</span>
-	
-
-</span></div>
-			
-		</div>
-
-		<div id="panel-two">
-
-			<div id="main">
-				<div id="wsite-content" class="wsite-elements wsite-not-footer">
-	<div class="wsite-section-wrap">
-	<div class="wsite-section wsite-body-section wsite-background-2 wsite-custom-background"  >
-		<div class="wsite-section-content">
-					<div class="container">
-			<div class="wsite-section-elements">
-				<div class="paragraph"><strong><font size="5">Ashish Kr. Shukla</font></strong></div>
-
-<div class="paragraph"><font color="#a88d2e">Software Devloper</font></div>
-
-<div class="wsite-spacer" style="height:76px;"></div>
-
-<div style="text-align:left;"><div style="height: 10px; overflow: hidden;"></div>
-<a class="wsite-button wsite-button-small wsite-button-highlight" href="get-in-touch.html" >
-<span class="wsite-button-inner">Contact me</span>
-</a>
-<div style="height: 10px; overflow: hidden;"></div></div>
-
-<div class="wsite-spacer" style="height:198px;"></div>
-			</div>
-		</div>
-				</div>
-
-	</div>
-</div>
-
-</div>
-
-			</div>
-
-			<div id="footer">Create a <a target="_top" href="http://www.weebly.com/">free web site</a> with <a target="_top" href="http://www.weebly.com/" title="gratis website">Weebly</a></div>
-		</div>
-
-		<div class="overlay"></div>
-
-	</div>
-
-	<div id="nav" class="w-navpane nav w-navpane-fullscreen">
-		<div class="w-navpane-trigger hamburger"><span></span></div>
-		<div class="menu-wrapper"><ul class="wsite-menu-default">
-		<li id="active" class="wsite-menu-item-wrap">
-			<a
-						href="index.html"
-				class="wsite-menu-item"
-				>
-				Home
-			</a>
-			
-		</li>
-		<li id="pg901156394380018484" class="wsite-menu-item-wrap">
-			<a
-						href="about.html"
-				class="wsite-menu-item"
-				>
-				About
-			</a>
-			
-		</li>
-		<li id="pg964137637646659888" class="wsite-menu-item-wrap">
-			<a
-						href="journal.html"
-				class="wsite-menu-item"
-				>
-				Journal
-			</a>
-			
-		</li>
-		<li id="pg301833833553888214" class="wsite-menu-item-wrap">
-			<a
-						href="get-in-touch.html"
-				class="wsite-menu-item"
-				>
-				Get in Touch
-			</a>
-			
-		</li>
-</ul>
-</div>
-	</div>
-
-	<script type="text/javascript" src="files/theme/plugins.js"></script>
-	<script type="text/javascript" src="files/theme/custom.js"></script>
-	<script type="text/javascript" src="files/theme/mobile.js"></script>
+        <div class="job">
+            <h3>Software Engineer – Openstream.AI (Jun 2014 – Apr 2016)</h3>
+            <ul>
+                <li>Developed Cue-me, a multimodal context-aware mobile platform across Android and iOS.</li>
+                <li><strong>Tech Stack:</strong> Java, Android Studio, Objective C, Swift</li>
+            </ul>
+        </div>
+    </section>
 
 
-		
-	</body>
+    <section id="projects">
+        <h2>Projects & Research</h2>
+
+        <div class="project">
+            <h3>🚗 Proactive Safety Features – Stellantis</h3>
+            <p>Developed and deployed safety algorithms for "Dark Zone Detection" and "Slippery Road Detection" using
+                clustering-based AI models. Created robust ETL pipelines in Databricks for production deployment and
+                monitoring.</p>
+            <p><strong>Tech:</strong> Python, Spark, Databricks, SQL, QNX, QNN SDK, Kepler SDK</p>
+        </div>
+
+        <div class="project">
+            <h3>📈 Feature Onboarding System – Stellantis</h3>
+            <p>Designed an onboarding pipeline for driver-assist features like Hi-beam Assist, Adaptive Cruise Control,
+                and Lane Keep Assist. Integrated models into the embedded system running on the car’s SoC.</p>
+            <p><strong>Tech:</strong> Python, C++, Embedded Systems, AI/ML, React Native</p>
+        </div>
+
+        <div class="project">
+            <h3>🧠 Weakly Supervised Human Pose Estimation – DFKI</h3>
+            <p>Master thesis project focused on estimating 3D human motion for diving sport using weak supervision.
+                Built a CNN-RNN architecture integrated with SMPL models and applied model pruning for deployment on
+                mobile apps.</p>
+            <p><strong>Tech:</strong> Python, TensorFlow, PyTorch, SMPL, CNN, RNN, Mobile App Dev</p>
+        </div>
+
+        <div class="project">
+            <h3>🚦 Autonomous Urban Traffic Simulator – Paderborn University</h3>
+            <p>Built a simulator using GoPiGo3 robots to mimic cooperative traffic navigation through intersections.
+                Created real-time communication protocols and sensor-driven logic using Python and SUMO.</p>
+            <p><strong>Tech:</strong> Python, C++, SUMO, PyQT, Robotics, Sensors</p>
+        </div>
+
+        <div class="project">
+            <h3>🛡️ Static Code Analysis UX Research – Fraunhofer IEM</h3>
+            <p>Researched why developers struggle with static code analyzers and redesigned a usable interface that
+                integrates with existing CI pipelines to reduce false positives.</p>
+            <p><strong>Tech:</strong> Java, Spring Boot, Security Tools, UX Design</p>
+        </div>
+
+        <div class="project">
+            <h3>📱 Kruzr Driving Companion App – Kruzr</h3>
+            <p>Led the mobile app development for Kruzr, a smart driving assistant that auto-replies to calls and
+                messages while driving. Integrated AI-based intent filters, voice interaction, and chatbot response for
+                WhatsApp/Facebook.</p>
+            <p><strong>Tech:</strong> Android SDK, iOS SDK, Java, Swift, NDK, Chatbot APIs</p>
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <h2>Skills & Certifications</h2>
+
+        <div class="skills-grid">
+            <div>
+                <h3>🧠 AI / ML</h3>
+                <ul>
+                    <li>Deep Learning, CNN, RNN, Human Pose Estimation</li>
+                    <li>Model Deployment on Edge (QNN SDK, QNX)</li>
+                    <li>TensorFlow, PyTorch, Model Pruning, SMPL</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>💻 Full Stack & Backend</h3>
+                <ul>
+                    <li>Java, Spring Boot, Node.js, Python, C++</li>
+                    <li>Microservices, REST APIs, Kafka, RabbitMQ</li>
+                    <li>React Native, Flutter, Android/iOS SDKs</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>☁️ Cloud & DevOps</h3>
+                <ul>
+                    <li>AWS, GCP, Azure, Kubernetes, Docker</li>
+                    <li>Databricks, Spark, ETL Pipelines</li>
+                    <li>Grafana, Elastic Search, CI/CD</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>🎓 Certifications</h3>
+                <ul>
+                    <li>Neural Networks and Deep Learning (Coursera)</li>
+                    <li>Hyperparameter Tuning & Regularization</li>
+                    <li>Structuring ML Projects (Andrew Ng)</li>
+                    <li>Convolutional Neural Networks</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p><strong>Email:</strong> <a href="mailto:me.ashishshukla12@gmail.com">me.ashishshukla12@gmail.com</a></p>
+        <p><strong>Phone:</strong> +91 76760 48504</p>
+        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ashish-shukla-8a379242"
+                target="_blank">linkedin.com/in/ashish-shukla-8a379242</a></p>
+        <p><strong>Location:</strong> Bengaluru, India</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Ashish Kumar Shukla</p>
+    </footer>
+</body>
+
 </html>
